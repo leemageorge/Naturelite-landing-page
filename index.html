@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><button class="btn btn-secondary">0484-22226568</button></li>
+                </ul>
+                <img src="images/menu.svg" alt="menu" class="menu-btn">
+            </nav>
+            <div class="main-content">
+                <h1 class="intro-heading">we all love</h1>
+                <h1 class="main-heading">nature</h1>
+                <p>Look deep into nature, and you will understand everything better</p>
+                <buttn class="btn btn-primary">Get Started</buttn>
+            </div>
+        </div>
+    </div>
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>Our services</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="images/service-1.png" alt="service">
+                    <h3>Web design</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, commodi sed ipsa dolores, fuga dignissimos assumenda animi consequatur modi porro aliquam fugit quam doloribus vitae?</p>
+                </div>
+                <div class="service">
+                    <img src="images/service-2.png" alt="service">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, commodi sed ipsa dolores, fuga dignissimos assumenda animi consequatur modi porro aliquam fugit quam doloribus vitae?</p>
+                </div>
+                <div class="service">
+                    <img src="images/service-3.png" alt="service">
+                    <h3>Content Creation</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, commodi sed ipsa dolores, fuga dignissimos assumenda animi consequatur modi porro aliquam fugit quam doloribus vitae?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="container">
+            <img src="images/quote.png" alt="quote">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsum alias </h1>
+            <div class="profile">
+                <img src="images/profile.png" alt="profile">
+                <h4>Lorra David Augustine</h4>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>About us</h4>
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolor optio reiciendis eveniet numquam earum reprehenderit unde voluptatibus modi 
+                    quaerat suscipit facilis, nobis atque voluptatem aspernatur vel expedita dignissimos! Nobis, incidunt?
+                </p>
+                <button class="btn btn-primary">
+                    Let's Talk Now
+                </button>
+
+            </div>
+            <div class="about-image">
+                <img src="images/about.png" alt="about">
+            </div>
+        </div>
+    </section>
+    <section id="question">
+        <div class="container">
+            <h1>QUESTIONS</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quos corrupti ut nesciunt at. Dicta vero ea consequuntur vitae nihil.</p>
+            <buttn class="btn btn-primary">Let's Talk Now</buttn>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="images/logo-colored.png" alt="">
+            <p>Love Nature and Protect Nature</p>
+        </div>
+    </footer>
+    <script>
+        const navBtn = document.querySelector(".menu-btn")
+        const navList = document.querySelector(".nav-list")
+
+        navBtn.addEventListener("click", ()=>{
+            navList.classList.toggle("active")
+        })
+
+    </script>
+</body>
+</html>
